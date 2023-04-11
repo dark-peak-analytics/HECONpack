@@ -2,7 +2,7 @@
 % Please edit documentation in R/calcICER.R
 \name{calcICER}
 \alias{calcICER}
-\title{Calculate the Incremental Cost Effectiveness Ratio}
+\title{Calculate the Incremental Cost Effectivness Ratio}
 \usage{
 calcICER(e_int, e_base, c_int, c_base)
 }
@@ -21,4 +21,9 @@ an single numeric value for the ICER.
 \description{
 Calculates the incremental effect and incremental costs of an intervention
 compared to baseline and then uses the results to calculate the ICER.
+}
+\examples{
+
+calcICER(e_int = 28.3, e_base = 22.5, c_int = 10000, c_base = 9200)
+
 }

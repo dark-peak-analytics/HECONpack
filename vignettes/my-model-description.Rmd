@@ -1,0 +1,38 @@
+---
+title: "my-model-description"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-model-description}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+My model summary here.
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Methods
+
+Load the model code here and summarise methods
+```{r setup}
+library(HECONpack)
+```
+
+# Results
+
+Show results of model code here.
+
+# Discussion
+
+More stuff here.
+
+# Conclusion
+
+Use packages for models, much better structure.

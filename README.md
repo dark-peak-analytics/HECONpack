@@ -29,7 +29,7 @@ For more guidance on Package setup more generally please refer to <https://r-pkg
 ## Cloning the repository
 
 1. Make sure you have RStudio installed.
-2. Clone this repository via the IDE or the command line with `git clone https://github.com/dark-peak-analytics/HECONpack`
+2. Clone this repository via the IDE or the command line with `git clone https://github.com/dark-peak-analytics/HECONpack.git`
 3. Open `HECONpack.Rproj` in RStudio
 
 

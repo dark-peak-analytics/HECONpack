@@ -45,7 +45,7 @@ library(HECONpack)
 
 ### Example function use
 
-Run the deterministic sick-sicker model with the dummy parameters.
+Use the `calcICER` function below to calculate the ICER given a set of expected outcomes.
 
 ``` r
 calcICER(e_int = 28.3, e_base = 22.5, c_int = 10000, c_base = 9200)

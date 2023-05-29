@@ -9,7 +9,9 @@ vignette: >
 
 # Introduction
 
-My model summary here.
+One could insert a description of the background to their model here, to give
+some context to what the model is trying to achieve. Remember that this vignette
+is a technical document, so can go into some detail on specific methods used.
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -20,19 +22,37 @@ knitr::opts_chunk$set(
 
 # Methods
 
-Load the model code here and summarise methods
+In the methods, the model should be explained. In particular how each of the 
+units (functions) fit together to create the model. The individual help files generated
+by `roxygen2` will provide information on each individual function but here
+the reader should be guided through how the functins fit togher. 
+
+This will likely result in more of a narrative, i.e. the model runs by running 
+function **x** which returns a data frame fed into function **y**. It may justify the 
+use of other packages and/or other languages/API calls (e.g. Python). It should outline 
+where data is stored and how to retrieve it.
+
+An example model run for a set of dummy inputs should be provided here, so that an 
+interested party could run the model themselves.
+
 ```{r setup}
 library(HECONpack)
 ```
 
 # Results
 
-Show results of model code here.
+Results can be shown here. These should include tables and plots. This way the 
+reader knows what to expect when they run the model themselves. This is not the full 
+modelling report so it doesn't have to read as such.
 
 # Discussion
 
-More stuff here.
+The description could include limitations, things that the modelling group would like
+to improve in the future, and any strengths/weaknesses that a reviewer or third party
+should be aware of. It may reference other related works.
 
 # Conclusion
 
-Use packages for models, much better structure.
+The conclusion should be brief. At this point a health economist who can program in R
+should have everything they need to be able to replicate the analysis 
+(albeit with dummy data) and review the model code.

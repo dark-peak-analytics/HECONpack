@@ -4,6 +4,7 @@ This repository houses R package `HECONpack` created in the tutorial section of 
 
 > Smith RA, Mohammed W. and Schneider PP. Packaging cost-effectiveness models in R: A tutorial. Wellcome Open Res 2023
 
+
 # **Packaging cost-effectiveness models in R: A tutorial**
 
 [Robert Smith](https://www.linkedin.com/in/robert-smith-53b28438)<sup>1,2</sup>, Wael Mohammed<sup>1,2</sup> & Paul Schneider<sup>1,2</sup>
@@ -50,6 +51,28 @@ Use the `calcICER` function below to calculate the ICER given a set of expected 
 ``` r
 calcICER(e_int = 28.3, e_base = 22.5, c_int = 10000, c_base = 9200)
 ```
+
+## Cloning the repository
+
+1. Make sure you have RStudio installed.
+2. Clone this repository via the IDE or the command line with `git clone https://github.com/dark-peak-analytics/HECONpack.git`
+3. Open `HECONpack.Rproj` in RStudio
+
+### Contents
+
+This repository is structured in the standard R Package structure.
+
+- `.Rbuildignore` files to ignore when building Package.
+- `.gitignore` files ignored by git.
+- `DESCRIPTION` metadata, e.g. name and version.
+- `NAMESPACE` from Roxygen, ensures names dependencies etc..
+- `R/` R functions.
+- `man/` md files documenting for functions.
+- `data` data available within Package.
+- `vignettes/` .Rmd files used to showcase Package functionality.
+- `tests/` unit tests designed to ensure code works as intended.
+
+For more guidance on Package setup more generally please refer to <https://r-pkgs.org/setup.html>.
 
 ## Funding
 Rob, Wael & Paul were joint funded by the Wellcome Trust Doctoral Training Centre in Public Health Economics and Decision Science [108903] and the University of Sheffield. They now all work for [Dark Peak Analytics](https://www.darkpeakanalytics.com). Please contact <rasmith3@sheffield.ac.uk> with any queries.

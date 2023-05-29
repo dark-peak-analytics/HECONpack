@@ -9,6 +9,7 @@
 #' @param c_base a single numeric value representing the cost (e.g. Total £) in the base group.
 #'
 #' @return an single numeric value for the ICER.
+#' @importFrom assertthat assert_that
 #' @export
 #' @examples
 #'
@@ -18,6 +19,11 @@ calcICER <- function(e_int,
                      e_base,
                      c_int,
                      c_base) {
+  # Check that all inputs are numeric
+  assertthat::assert_that(
+    is.numeric(c(e_int, e_base, c_int, c_base)),
+    msg = "All inputs must be numeric values or vectors."
+    )
   # calculate the incremental costs and effects
   inc_e <- e_int - e_base
   inc_c <- c_int - c_base

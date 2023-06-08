@@ -1,8 +1,8 @@
 # HECONpack <img src="https://user-images.githubusercontent.com/41961614/231161592-ef708d04-cc3f-4bec-95a4-70d0635c166c.png" align="right" width="120" />
 
-This repository houses R package `HECONpack` created in the tutorial section of the open access paper:
+This repository houses R package `HECONpack` created in the tutorial section of the working paper:
 
-> Smith RA, Mohammed W. and Schneider PP. Packaging cost-effectiveness models in R: A tutorial. Wellcome Open Res 2023
+> Smith RA, Mohammed W. and Schneider PP. Packaging cost-effectiveness models in R: A tutorial. [GoogleDoc](https://docs.google.com/document/d/16SXEaW413aQy_xel04MwTUwYlAR4voq4/edit)
 
 
 # **Packaging cost-effectiveness models in R: A tutorial**
